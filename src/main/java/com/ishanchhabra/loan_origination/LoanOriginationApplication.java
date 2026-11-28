@@ -1,3 +1,4 @@
+
 package com.ishanchhabra.loan_origination;
 
 import org.springframework.boot.SpringApplication;
@@ -7,7 +8,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LoanOriginationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LoanOriginationApplication.class, args);
+		SpringApplication.run(
+				LoanOriginationApplication.class,
+				args
+		);
 	}
-
 }
